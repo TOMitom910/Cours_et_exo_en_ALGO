@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1622216704 source:d:\ludus academie\c\jeu_du_pendu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
