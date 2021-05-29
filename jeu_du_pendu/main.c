@@ -18,24 +18,13 @@ int main()
     int longueur_mot;
     printf("Veuillez ecrire un mot : ");
     scanf("%s",mot);
-    printf("%s",mot);
-
-    //system("cls");
-        longueur_mot = strlen(mot);
+    system("cls");
+    longueur_mot = strlen(mot);
     for(i=0;i<longueur_mot;i++)
     {
-        mot[i];
         motJuste[i] = '-' ;
     }
-    printf("\n%s",mot);
-    printf("\n");
     test(longueur_mot,mot,motJuste);
-    if(perdu<10)
-    {
-       system("cls");
-       printf("Vous avez gagne !");
-    }
-
     return 0;
 }
 
@@ -43,14 +32,18 @@ void affichage()
 {
     if (perdu == 1)
     {
-      printf("\n");
-      printf("\n");
-      printf("\n");
-      printf("\n");
-      printf("__\n");
+        system("cls");
+        printf("%s\n",motJuste);
+        printf("\n");
+        printf("\n");
+        printf("\n");
+        printf("\n");
+        printf("__\n");
     }
     if (perdu == 2)
     {
+        system("cls");
+        printf("%s\n",motJuste);
         printf("\n");
         printf("|\n");
         printf("|\n");
@@ -59,6 +52,8 @@ void affichage()
     }
     if (perdu == 3)
     {
+        system("cls");
+        printf("%s\n",motJuste);
         printf("______\n");
         printf("|\n");
         printf("|\n");
@@ -67,6 +62,8 @@ void affichage()
     }
     if (perdu == 4)
     {
+        system("cls");
+        printf("%s\n",motJuste);
         printf("______\n");
         printf("|   |\n");
         printf("|\n");
@@ -75,6 +72,8 @@ void affichage()
     }
     if (perdu == 5)
     {
+        system("cls");
+        printf("%s\n",motJuste);
         printf("______\n");
         printf("|   |\n");
         printf("|   0\n");
@@ -83,6 +82,8 @@ void affichage()
     }
     if (perdu == 6)
     {
+        system("cls");
+        printf("%s\n",motJuste);
         printf("______\n");
         printf("|   |\n");
         printf("|   0\n");
@@ -91,6 +92,8 @@ void affichage()
     }
     if (perdu == 7)
     {
+        system("cls");
+        printf("%s\n",motJuste);
         printf("______\n");
         printf("|   |\n");
         printf("|   0\n");
@@ -99,6 +102,8 @@ void affichage()
     }
     if (perdu == 8)
     {
+        system("cls");
+        printf("%s\n",motJuste);
         printf("______\n");
         printf("|   |\n");
         printf("|   0\n");
@@ -107,6 +112,8 @@ void affichage()
     }
     if (perdu == 9)
     {
+        system("cls");
+        printf("%s\n",motJuste);
         printf("______\n");
         printf("|   |\n");
         printf("|   0\n");
@@ -115,28 +122,29 @@ void affichage()
     }
     if (perdu == 10)
     {
+        system("cls");
+        printf("%s\n",motJuste);
         printf("______\n");
         printf("|   |\n");
         printf("|   0\n");
         printf("|  |||\n");
         printf("|__| |\n");
-        printf("Vous avez perdu\n");
+        system("cls");
     }
 }
 
-void test(int longueur_mot,char mot[TAILLE],char motJuste[strlen(mot)])
+void test(int longueur_mot,char mot[],char motJuste[strlen(mot)])
 {
     char StockLettre[strlen(mot)];
     int i;
     int compteur=0;
-    while((mot != motJuste) || (perdu < 10))
+    while((mot == motJuste) || (perdu != 10))
     {
+        affichage();
         printf("Veuillez saisir une lettre : ");
         scanf("%s",StockLettre);
-        printf("%s\n",StockLettre);
-        perdu=0;
         compteur=0;
-       //system("cls");
+        system("cls");
         for(i=0;i<longueur_mot;i++)
         {
             if(mot[i] == StockLettre[0])
@@ -145,7 +153,7 @@ void test(int longueur_mot,char mot[TAILLE],char motJuste[strlen(mot)])
                 compteur++;
             }
         }
-        printf("\n%s",motJuste);
+        printf("%s\n",motJuste);
 
         if(compteur == 0)
         {
@@ -153,9 +161,14 @@ void test(int longueur_mot,char mot[TAILLE],char motJuste[strlen(mot)])
             affichage();
         }
     }
-    if(perdu == 10)
+    if(perdu >= 10)
     {
         system("cls");
-        printf("Vous avez perdu !");
+        printf("VOUS AVEZ PERDU !\n");
+    }
+    else
+    {
+        system("cls");
+        printf("VOUS AVEZ TROUVE !\n");
     }
 }
