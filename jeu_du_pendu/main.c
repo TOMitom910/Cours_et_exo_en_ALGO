@@ -138,7 +138,7 @@ void test(int longueur_mot,char mot[],char motJuste[strlen(mot)])
     char StockLettre[strlen(mot)];
     int i;
     int compteur=0;
-    while((mot == motJuste) || (perdu != 10))
+    while(strcmp(mot,motJuste) !=0 && (perdu <10))
     {
         affichage();
         printf("Veuillez saisir une lettre : ");
@@ -161,7 +161,7 @@ void test(int longueur_mot,char mot[],char motJuste[strlen(mot)])
             affichage();
         }
     }
-    if(perdu >= 10)
+    if(perdu == 10)
     {
         system("cls");
         printf("VOUS AVEZ PERDU !\n");
