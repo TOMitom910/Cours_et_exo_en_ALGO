@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1636128333 source:d:\ludus academie\cours 2021 - 2022\algo\c\demineur\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<stdbool.h>
+
