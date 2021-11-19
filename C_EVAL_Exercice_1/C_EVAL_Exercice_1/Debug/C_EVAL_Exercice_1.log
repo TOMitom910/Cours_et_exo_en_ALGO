@@ -1,0 +1,3 @@
+﻿  Main.c
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_1\C_EVAL_Exercice_1\Main.c(33,39): warning C4047: '==': 'int' differs in levels of indirection from 'char [2]'
+  C_EVAL_Exercice_1.vcxproj -> D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_1\Debug\C_EVAL_Exercice_1.exe

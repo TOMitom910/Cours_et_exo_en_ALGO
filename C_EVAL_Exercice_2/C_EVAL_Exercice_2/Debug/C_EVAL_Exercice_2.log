@@ -1,0 +1,17 @@
+﻿  Information.c
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(8,18): warning C4013: 'malloc' undefined; assuming extern returning int
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(8,39): warning C4047: '=': 'information *' differs in levels of indirection from 'int'
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(21,8): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(25,20): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[20]'
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(25,15): warning C4024: 'fputs': different types for formal and actual parameter 1
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(29,8): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(32,23): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[15]'
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(32,15): warning C4024: 'fputs': different types for formal and actual parameter 1
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(43,8): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(46,26): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[11]'
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(46,15): warning C4024: 'fputs': different types for formal and actual parameter 1
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(49,8): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char *(*)[3]'
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(50,24): warning C4047: '==': 'char *[3]' differs in levels of indirection from 'char [4]'
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(52,3): warning C4550: expression evaluates to a function which is missing an argument list
+D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\C_EVAL_Exercice_2\Information.c(56,6): warning C4013: 'free' undefined; assuming extern returning int
+  C_EVAL_Exercice_2.vcxproj -> D:\Ludus academie\Cours 2021 - 2022\Algo\Exercice\C_EVAL_Exercice_2\Debug\C_EVAL_Exercice_2.exe
